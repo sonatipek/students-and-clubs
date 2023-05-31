@@ -1,2 +1,4 @@
-# Eklenecekler
-- Localde api'dan alınan verilerin github üzerinden api'a bağlanması
+
+
+# Özellikler
+- Tüm sayfalarda en az bir adet veri github üzerinde bulunan bir json'dan geliyor.
