@@ -7,14 +7,14 @@
       let Alpine = window["Alpine"];
 
       async function fiyat1() {
-        let url = "http://localhost/gp_90210000216/api/index.php";
+        let url = "https://raw.githubusercontent.com/sonatipek/students-and-clubs/main/api/yazilar.json";
         try {
           let res = await fetch(url);
-          console.log(res);
+          // console.log(res.json());
           let result = await res.json();
-          result = result.rows[0].key["fiyat1"];
+          result = result.yazilar1.fiyat1;
 
-          console.log(result);
+          // console.log(result);
           return result;
         } catch (err) {
           console.log(err);
@@ -22,14 +22,14 @@
     
       }
       async function fiyat2() {
-        let url = "http://localhost/gp_90210000216/api/index.php";
+        let url = "https://raw.githubusercontent.com/sonatipek/students-and-clubs/main/api/yazilar.json";
         try {
           let res = await fetch(url);
-          console.log(res);
+          // console.log(res);
           let result = await res.json();
-          result = result.rows[0].key["fiyat2"];
+          result = result.yazilar1.fiyat2;
 
-          console.log(result);
+          // console.log(result);
           return result;
         } catch (err) {
           console.log(err);
@@ -38,12 +38,12 @@
       }
       
       async function referans1() {
-        let url = "http://localhost/gp_90210000216/api/index.php";
+        let url = "https://raw.githubusercontent.com/sonatipek/students-and-clubs/main/api/yazilar.json";
         try {
           let res = await fetch(url);
           console.log(res);
           let result = await res.json();
-          result = result.rows[0].key["referans1"];
+          result = result.yazilar1.referans1;
 
           console.log(result);
           return result;
@@ -54,12 +54,12 @@
       }
 
       async function referans2() {
-        let url = "http://localhost/gp_90210000216/api/index.php";
+        let url = "https://raw.githubusercontent.com/sonatipek/students-and-clubs/main/api/yazilar.json";
         try {
           let res = await fetch(url);
           console.log(res);
           let result = await res.json();
-          result = result.rows[0].key["referans2"];
+          result = result.yazilar1.referans2;
 
           console.log(result);
           return result;
@@ -70,12 +70,12 @@
       }
 
       async function referans3() {
-        let url = "http://localhost/gp_90210000216/api/index.php";
+        let url = "https://raw.githubusercontent.com/sonatipek/students-and-clubs/main/api/yazilar.json";
         try {
           let res = await fetch(url);
           console.log(res);
           let result = await res.json();
-          result = result.rows[0].key["referans3"];
+          result = result.yazilar1.referans3;
 
           console.log(result);
           return result;
@@ -85,12 +85,12 @@
     
       }
       async function referans4() {
-        let url = "http://localhost/gp_90210000216/api/index.php";
+        let url = "https://raw.githubusercontent.com/sonatipek/students-and-clubs/main/api/yazilar.json";
         try {
           let res = await fetch(url);
           console.log(res);
           let result = await res.json();
-          result = result.rows[0].key["referans4"];
+          result = result.yazilar1.referans4;
 
           console.log(result);
           return result;
@@ -100,12 +100,12 @@
     
       }
       async function referans5() {
-        let url = "http://localhost/gp_90210000216/api/index.php";
+        let url = "https://raw.githubusercontent.com/sonatipek/students-and-clubs/main/api/yazilar.json";
         try {
           let res = await fetch(url);
           console.log(res);
           let result = await res.json();
-          result = result.rows[0].key["referans5"];
+          result = result.yazilar1.referans5;
 
           console.log(result);
           return result;
@@ -116,12 +116,12 @@
       }
 
       async function sss1Title() {
-        let url = "http://localhost/gp_90210000216/api/index.php";
+        let url = "https://raw.githubusercontent.com/sonatipek/students-and-clubs/main/api/yazilar.json";
         try {
           let res = await fetch(url);
           console.log(res);
           let result = await res.json();
-          result = result.rows[0].key["sss1Title"];
+          result = result.yazilar1.sss1Title;
 
           console.log(result);
           return result;
@@ -131,12 +131,12 @@
     
       }
       async function sss1Desc() {
-        let url = "http://localhost/gp_90210000216/api/index.php";
+        let url = "https://raw.githubusercontent.com/sonatipek/students-and-clubs/main/api/yazilar.json";
         try {
           let res = await fetch(url);
           console.log(res);
           let result = await res.json();
-          result = result.rows[0].key["sss1Desc"];
+          result = result.yazilar1.sss1Desc;
 
           console.log(result);
           return result;
@@ -147,13 +147,12 @@
       }
 
       async function sss2Title() {
-        let url = "http://localhost/gp_90210000216/api/index.php";
+        let url = "https://raw.githubusercontent.com/sonatipek/students-and-clubs/main/api/yazilar.json";
         try {
           let res = await fetch(url);
           console.log(res);
           let result = await res.json();
-          result = result.rows[0].key["sss2Title"];
-
+          result = result.yazilar1.sss2Title;
           console.log(result);
           return result;
         } catch (err) {
@@ -162,12 +161,12 @@
     
       }
       async function sss2Desc() {
-        let url = "http://localhost/gp_90210000216/api/index.php";
+        let url = "https://raw.githubusercontent.com/sonatipek/students-and-clubs/main/api/yazilar.json";
         try {
           let res = await fetch(url);
           console.log(res);
           let result = await res.json();
-          result = result.rows[0].key["sss2Desc"];
+          result = result.yazilar1.sss2Desc;
 
           console.log(result);
           return result;
@@ -177,12 +176,12 @@
     
       }
       async function sss3Title() {
-        let url = "http://localhost/gp_90210000216/api/index.php";
+        let url = "https://raw.githubusercontent.com/sonatipek/students-and-clubs/main/api/yazilar.json";
         try {
           let res = await fetch(url);
           console.log(res);
           let result = await res.json();
-          result = result.rows[0].key["sss3Title"];
+          result = result.yazilar1.sss3Title;
 
           console.log(result);
           return result;
@@ -192,12 +191,12 @@
     
       }
       async function sss3Desc() {
-        let url = "http://localhost/gp_90210000216/api/index.php";
+        let url = "https://raw.githubusercontent.com/sonatipek/students-and-clubs/main/api/yazilar.json";
         try {
           let res = await fetch(url);
           console.log(res);
           let result = await res.json();
-          result = result.rows[0].key["sss3Desc"];
+          result = result.yazilar1.sss3Desc;
 
           console.log(result);
           return result;
@@ -207,12 +206,12 @@
     
       }
       async function sss4Title() {
-        let url = "http://localhost/gp_90210000216/api/index.php";
+        let url = "https://raw.githubusercontent.com/sonatipek/students-and-clubs/main/api/yazilar.json";
         try {
           let res = await fetch(url);
           console.log(res);
           let result = await res.json();
-          result = result.rows[0].key["sss4Title"];
+          result = result.yazilar1.sss4Title;
 
           console.log(result);
           return result;
@@ -222,12 +221,12 @@
     
       }
       async function sss4Desc() {
-        let url = "http://localhost/gp_90210000216/api/index.php";
+        let url = "https://raw.githubusercontent.com/sonatipek/students-and-clubs/main/api/yazilar.json";
         try {
           let res = await fetch(url);
           console.log(res);
           let result = await res.json();
-          result = result.rows[0].key["sss4Desc"];
+          result = result.yazilar1.sss4Desc;
 
           console.log(result);
           return result;
@@ -238,12 +237,12 @@
       }
 
       async function ogrenciler() {
-        let url = "http://localhost/gp_90210000216/api/index.php";
+        let url = "https://raw.githubusercontent.com/sonatipek/students-and-clubs/main/api/yazilar.json";
         try {
           let res = await fetch(url);
           console.log(res);
           let result = await res.json();
-          result = result.rows[0].key["ogrenciler"];
+          result = result.yazilar1.ogrenciler;
 
           console.log(result);
           return result;
@@ -253,12 +252,12 @@
     
       }
       async function topluluklar() {
-        let url = "http://localhost/gp_90210000216/api/index.php";
+        let url = "https://raw.githubusercontent.com/sonatipek/students-and-clubs/main/api/yazilar.json";
         try {
           let res = await fetch(url);
           console.log(res);
           let result = await res.json();
-          result = result.rows[0].key["topluluklar"];
+          result = result.yazilar1.topluluklar;
 
           console.log(result);
           return result;
