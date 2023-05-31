@@ -1,0 +1,44 @@
+---
+import Accordion from "../components/Accordion.astro";
+import AccordionItem from "../components/AccordionItem.astro";
+import SectionTitle from "../components/SectionTitle.astro";
+import Layout from "../layouts/Layout.astro";
+
+---
+
+<Layout title="Sıkça Sorulanlar">
+    <main class="my-5">
+        <SectionTitle 
+            minititle="S.S.S."
+            title ="Sıkça Sorulan Sorular"
+            subtitle="lorem ipsum dolor sit amet."
+        />
+        <Accordion>
+            <AccordionItem 
+                accordion_title="$store.veriler.sss1TitleText"
+                accordion_body="$store.veriler.sss1DescText"
+                accordion_id="One"
+            />
+
+            <AccordionItem 
+                accordion_title="$store.veriler.sss2TitleText"
+                accordion_body="$store.veriler.sss2DescText"
+                accordion_id="Two"
+            />
+
+            <AccordionItem 
+                accordion_title="$store.veriler.sss3TitleText"
+                accordion_body="$store.veriler.sss3DescText"
+                accordion_id="Three"
+            />
+
+            <AccordionItem 
+                accordion_title="$store.veriler.sss4TitleText"
+                accordion_body="$store.veriler.sss4DescText"
+                accordion_id="Four"
+            />
+        </Accordion>
+    </main>
+</Layout>
+
+

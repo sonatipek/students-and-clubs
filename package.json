@@ -1,0 +1,24 @@
+{
+  "name": "",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/alpinejs": "^0.2.1",
+    "@astrojs/vue": "^2.1.1",
+    "@types/alpinejs": "^3.7.1",
+    "alpinejs": "^3.12.0",
+    "astro": "^2.3.4",
+    "mysql": "^2.18.1",
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.3"
+  }
+}

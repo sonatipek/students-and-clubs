@@ -1,0 +1,59 @@
+---
+const {iconClass, mainTitle, desc, price, feature_1, feature_2, feature_3, kayit_href} = Astro.props;
+---
+
+<div>
+  <div class="rounded px-5 py-3 border border-muted-200 bg-white">
+      <div class="d-flex align-items-center mt-2">
+
+        <!-- Icon -->
+        <div class="d-flex align-items-center justify-content-center me-2">
+          <i class={iconClass}></i>
+        </div>
+
+        <!-- Title -->
+        <h3 class="fs-2 fw-normal text-dark">{mainTitle}</h3>
+      </div>
+
+      <!-- Desc -->
+      <p class="fw-small py-2 mt-1 text-secondary">
+        {desc}
+      </p>
+
+      <div class="d-flex align-items-center mt-2 mb-4" x-data>
+        <h4 class="fs-1 fw-semibold text-dark me-4" x-text={price}></h4>
+        <span class="fs-6 fw-light fst-italic text-secondary">
+          <span>/aylık</span>
+        </span>
+      </div>
+
+      <!-- Features -->
+      <ul class="p-0 pb-2 text-secondary">
+        <!-- F-1 -->
+        <li class="d-flex align-items-center">
+            <i class="fa-solid fa-check me-2"></i>
+            <span class="fs-6">{ feature_1 } </span>
+        </li>
+        <!-- F-2 -->
+        <li class="flex items-center">
+            <i class="fa-solid fa-check me-2"></i>
+            <span class="fs-6">{feature_2}</span>
+        </li>
+        <!-- F-3 -->
+        <li class="flex items-center">
+            <i class="fa-solid fa-check me-2"></i>
+            <span class="fs-6">{feature_3}</span>
+        </li>
+      </ul>
+
+      <a href={kayit_href} class="btn btn-outline-primary d-block fs-6 fw-normal text-center my-2 py-2">Kayıt Oluştur</a>
+      <a href="/hakkimizdayazilanlar" class="btn border d-block fs-6 fw-normal text-center my-2 py-2">Daha Fazlasını Öğren</a>
+  </div>
+</div>
+
+<style>
+
+  ul{
+    list-style-type: none;
+  }
+</style>

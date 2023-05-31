@@ -1,0 +1,20 @@
+---
+const { desc, user, place, img_path } = Astro.props;
+---
+
+<div class="rounded border bg-white col py-3">
+    <div class="d-flex flex-column row-gap-3" x-data>
+        <i class="fa-solid fa-quote-left text-primary fs-1"></i>
+        <p class="text-secondary fs-6" x-text={desc}></p>
+
+        <div class="d-flex align-items-center gap-3">
+            <div>
+                <img src={img_path} class="rounded-pill shadow" alt="User image" width="45"/>
+            </div>
+            <div class="d-flex flex-column justify-content-center">
+                <h4 class="fw-normal fs-6 text-primary-emphasis p-0 m-0">{user}</h4>
+                <p class="fs-6 fw-light text-secondary p-0 m-0">{place}</p>
+            </div>
+        </div>
+    </div>
+</div>

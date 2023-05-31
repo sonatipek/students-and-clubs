@@ -1,0 +1,16 @@
+---
+const {accordion_title, accordion_body, accordion_id} = Astro.props;
+---
+
+<div class="accordion-item" x-data>
+    <h2 class="accordion-header">
+        <button x-text={accordion_title} class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target={"#panelsStayOpen-" + accordion_id} aria-expanded="false" aria-controls={"panelsStayOpen-" + accordion_id}>
+
+        </button>
+    </h2>
+    <div id={"panelsStayOpen-" + accordion_id} class="accordion-collapse collapse">
+        <div class="accordion-body" x-text={accordion_body}>
+            
+        </div>
+    </div>
+</div>

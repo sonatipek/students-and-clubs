@@ -1,0 +1,51 @@
+---
+import PricingOption from "./PricingOption.astro";
+
+---
+<div class="row gap-3 mx-auto bg-light border rounded d-flex align-items-center justify-content-center py-5" x-intersect="activeStep = 'spy-3'">
+
+    <!-- Col-1 -->
+    <div class="col ms-5">
+        <h3>Kapsamlı Ödeme Planı</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Apparet
+            statim, quae sint officia, quae actiones. Ut id aliis narrare
+            gestiant?
+        </p>
+        <!-- Link -->
+        <a href="/sikcasorulanlar" class="group inline-flex items-center gap-4 text-primary text-decoration-none">
+            <span class="font-sans font-medium text-sm">Daha fazlası için S.S.S.</span><i class="fa-solid fa-arrow-right ms-2"></i>
+        </a>
+    </div>
+    <!-- Col-1 end-->
+
+    <!-- Col-2 -->
+    <div class="col">
+        <PricingOption
+            iconClass="fa-solid fa-graduation-cap fs-2 bg-primary rounded text-white p-2"
+            mainTitle="Öğrenci"
+            desc="Daha fazla ücretsiz ürün oluşturmamıza yardımcı olacak bir başlangıç üyeliği."
+            price="$store.veriler.fiyat1Text"
+            feature_1="Student Dashboard"
+            feature_2="Video Calls"
+            feature_3="Apointment"
+            kayit_href="/ogrencikayit"
+        />
+    </div>
+    <!-- Col-2 end -->
+
+    <!-- Col-3 -->
+    <div class="col">
+        <PricingOption
+            iconClass="fa-solid fa-people-group fs-2 bg-primary rounded text-white p-2"
+            mainTitle="Topluluk"
+            desc="A starter membership to help us build more free products."
+            price="$store.veriler.fiyat2Text"
+            feature_1="Topluluk Dashboard"
+            feature_2="Video Calls"
+            feature_3="Apointment"
+            kayit_href="/toplulukkayit"
+        />
+    </div>
+    <!-- Col-3 end -->
+</div>

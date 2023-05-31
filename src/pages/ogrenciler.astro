@@ -1,0 +1,31 @@
+---
+import Layout from "../layouts/Layout.astro";
+import SectionTitle from "../components/SectionTitle.astro";
+---
+
+<Layout title="Öğrenciler">
+    <SectionTitle 
+            minititle="Öğrencilerimiz"
+            title ="Kayıtlı Öğrencilerimiz"
+            subtitle="lorem ipsum dolor sit amet."
+    />
+
+    <div x-data="{activeCategory: 'all'}">
+        <div class="d-flex gap-3">
+            <button class="btn btn-primary" @click="activeCategory = 'all'">Tüm Öğrencileri Listele</button>
+            <button class="btn btn-primary" @click="activeCategory = 'YAZGET'">Yazget Topluluğu Üyeleri</button>
+            <button class="btn btn-primary" @click="activeCategory = 'BEMTEG'">Bemteg Topluluğu Üyeleri</button>
+            <button class="btn btn-primary" @click="activeCategory = 'Müzik Kulübü'">Müzik Topluluğu Üyeleri</button>
+        </div>
+        <ul class="bg-light rounded d-flex ">
+            <template x-for="ogrenci in $store.veriler.ogrencilerText">
+                <div class="p-3">
+                    <h5 class="text-dark" x-text="ogrenci.ad" x-show="activeCategory === 'all' || activeCategory === ogrenci.topluluk"></h5>
+                    <h6 class=" text-secondary" x-text="ogrenci.topluluk" x-show="activeCategory === 'all' || activeCategory === ogrenci.topluluk"></h6>
+                </div>
+                
+            </template>
+           
+        </ul>
+    </div>
+</Layout>

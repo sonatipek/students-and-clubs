@@ -1,0 +1,21 @@
+---
+import SectionTitle from "../components/SectionTitle.astro";
+import Layout from "../layouts/Layout.astro";
+
+---
+
+<Layout title="Topluluk Kayıt">
+    <main x-data>
+        <SectionTitle
+            title="Kayıtlı Topluluklarımız"
+            subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tibi hoc incredibile, quod beatissimum."
+            minititle="Topluluklarımız"
+        ></SectionTitle>
+        <ul class="list-group">
+            <template x-for="topluluk in $store.veriler.topluluklarText">
+                <li class="list-group-item" x-text="topluluk"></li>            
+            </template>
+           
+        </ul>
+    </main>
+</Layout>

@@ -1,0 +1,68 @@
+{
+    "yazilar1": {
+      "fiyat1": "0₺",
+      "fiyat2": "99₺",
+      "referans1": "Bu web sitesi gerçekten harika! Kullanımı çok kolay ve aradığım hizmeti bulmak çok hızlıydı. Topluluk görevlisi olarak hizmet aldım. Müşteri hizmetleri de çok yardımcı oldu ve sorularıma hızlıca yanıt verdiler. Kesinlikle tekrar kullanacağım.",
+      "referans2": "Bu web sitesi benim için harika bir kaynak oldu. İhtiyacım olan hizmeti bulmak için birçok farklı web sitesine bakmıştım, ancak burada aradığım şeyi hızlıca buldum. Hizmet kalitesi de çok yüksek ve fiyatlar makul. Kesinlikle tavsiye ederim.",
+      "referans3": "Bu web sitesi benim için bir kurtarıcı oldu. İhtiyacım olan hizmeti bulmak için saatlerimi harcamıştım, ancak burada çok hızlı bir şekilde buldum. Hizmet sağlayıcısı da oldukça profesyonel ve işlerini harika bir şekilde yaptılar.",
+      "referans4": "Bu web sitesi müthiş bir deneyim sunuyor. Kullanıcı arayüzü son derece basit ve anlaşılır, hizmetleri de oldukça çeşitli. Ayrıca müşteri hizmetleri de çok yardımcı ve hızlı yanıt veriyorlar. Kesinlikle tavsiye ederim.",
+      "referans5": "Bu web sitesindeki hizmetler gerçekten kaliteli ve profesyonelce sunuluyor. İşlerini harika bir şekilde yapıyorlar. Ayrıca web sitesinin tasarımı da son derece estetik ve kullanışlı. Kesinlikle tekrar kullanacağım.",
+      "sss1Title": "Hizmetleriniz nelerdir?",
+      "sss1Desc": "Hizmetlerimiz arasında topluluklar için öğrencilere ulaşmasını kolaylaştırmaktan başka bir şey değildir. Öğrenciler için ise hayallerine bir adım daha yaklaşabilmeleri için kolaylık sağlamaktır.",
+      "sss2Title": "Fiyatlarınız nedir?",
+      "sss2Desc": "Fiyatlarımız hizmetlere göre farklılık göstermektedir. Detaylı fiyatlandırma bilgileri için web sitemizi ziyaret edebilir veya bizimle iletişime geçebilirsiniz. Topluluk görevlisi olmayan öğrencilere tamamen ücretsiz hizmet sağladığımızı da belirtmek isterim.",
+      "sss3Title": "Hizmetleriniz için müşteri referansları var mı?",
+      "sss3Desc": "Hizmetlerimiz için müşteri referanslarımız web sitemizde yer almaktadır. Referanslarımızdan bazıları müşterilerimizin hizmetlerimizle ilgili deneyimlerini paylaşmaktadır.",
+      "sss4Title": "Hizmetlerinizi kullanmak için hangi koşullar gereklidir?",
+      "sss4Desc": "Hizmetlerimizi kullanmak için tek koşul öğrenci olmanızdır.",
+      "ogrenciler": [
+        "ogrenci1",
+        {
+          "ad": "Sonat Saygın İpek",
+          "topluluk": "YAZGET"
+        },
+        "ogrenci2",
+        {
+          "ad": "Onur Acar",
+          "topluluk": "YAZGET"
+        },
+        "ogrenci3",
+        {
+          "ad": "Eray Çevik",
+          "topluluk": "YAZGET"
+        },
+        "ogrenci4",
+        {
+          "ad": "Emirhan Erol",
+          "topluluk": "YAZGET"
+        },
+        "ogrenci5",
+        {
+          "ad": "Hamza Ortatepe",
+          "topluluk": "YAZGET"
+        },
+        "ogrenci6",
+        {
+          "ad": "Hilmican Çakır",
+          "topluluk": "Müzik Kulübü"
+        },
+        "ogrenci7",
+        {
+          "ad": "Gökhan Çalış",
+          "topluluk": "YAZGET"
+        },
+        "ogrenci8",
+        {
+          "ad": "Umut Bural",
+          "topluluk": "BEMTEG"
+        }
+      ],
+      "topluluklar": [
+        "BEMTEG",
+        "YAZGET",
+        "Müzik Kulübü",
+        "Tiyatro Kulübü",
+        "Dans Kulübü"
+      ]
+    }
+}

@@ -1,0 +1,299 @@
+---
+---
+
+<script>
+    document.addEventListener("alpine:init", () => {
+
+      let Alpine = window["Alpine"];
+
+      async function fiyat1() {
+        let url = "http://localhost/gp_90210000216/api/index.php";
+        try {
+          let res = await fetch(url);
+          console.log(res);
+          let result = await res.json();
+          result = result.rows[0].key["fiyat1"];
+
+          console.log(result);
+          return result;
+        } catch (err) {
+          console.log(err);
+        }
+    
+      }
+      async function fiyat2() {
+        let url = "http://localhost/gp_90210000216/api/index.php";
+        try {
+          let res = await fetch(url);
+          console.log(res);
+          let result = await res.json();
+          result = result.rows[0].key["fiyat2"];
+
+          console.log(result);
+          return result;
+        } catch (err) {
+          console.log(err);
+        }
+    
+      }
+      
+      async function referans1() {
+        let url = "http://localhost/gp_90210000216/api/index.php";
+        try {
+          let res = await fetch(url);
+          console.log(res);
+          let result = await res.json();
+          result = result.rows[0].key["referans1"];
+
+          console.log(result);
+          return result;
+        } catch (err) {
+          console.log(err);
+        }
+    
+      }
+
+      async function referans2() {
+        let url = "http://localhost/gp_90210000216/api/index.php";
+        try {
+          let res = await fetch(url);
+          console.log(res);
+          let result = await res.json();
+          result = result.rows[0].key["referans2"];
+
+          console.log(result);
+          return result;
+        } catch (err) {
+          console.log(err);
+        }
+    
+      }
+
+      async function referans3() {
+        let url = "http://localhost/gp_90210000216/api/index.php";
+        try {
+          let res = await fetch(url);
+          console.log(res);
+          let result = await res.json();
+          result = result.rows[0].key["referans3"];
+
+          console.log(result);
+          return result;
+        } catch (err) {
+          console.log(err);
+        }
+    
+      }
+      async function referans4() {
+        let url = "http://localhost/gp_90210000216/api/index.php";
+        try {
+          let res = await fetch(url);
+          console.log(res);
+          let result = await res.json();
+          result = result.rows[0].key["referans4"];
+
+          console.log(result);
+          return result;
+        } catch (err) {
+          console.log(err);
+        }
+    
+      }
+      async function referans5() {
+        let url = "http://localhost/gp_90210000216/api/index.php";
+        try {
+          let res = await fetch(url);
+          console.log(res);
+          let result = await res.json();
+          result = result.rows[0].key["referans5"];
+
+          console.log(result);
+          return result;
+        } catch (err) {
+          console.log(err);
+        }
+    
+      }
+
+      async function sss1Title() {
+        let url = "http://localhost/gp_90210000216/api/index.php";
+        try {
+          let res = await fetch(url);
+          console.log(res);
+          let result = await res.json();
+          result = result.rows[0].key["sss1Title"];
+
+          console.log(result);
+          return result;
+        } catch (err) {
+          console.log(err);
+        }
+    
+      }
+      async function sss1Desc() {
+        let url = "http://localhost/gp_90210000216/api/index.php";
+        try {
+          let res = await fetch(url);
+          console.log(res);
+          let result = await res.json();
+          result = result.rows[0].key["sss1Desc"];
+
+          console.log(result);
+          return result;
+        } catch (err) {
+          console.log(err);
+        }
+    
+      }
+
+      async function sss2Title() {
+        let url = "http://localhost/gp_90210000216/api/index.php";
+        try {
+          let res = await fetch(url);
+          console.log(res);
+          let result = await res.json();
+          result = result.rows[0].key["sss2Title"];
+
+          console.log(result);
+          return result;
+        } catch (err) {
+          console.log(err);
+        }
+    
+      }
+      async function sss2Desc() {
+        let url = "http://localhost/gp_90210000216/api/index.php";
+        try {
+          let res = await fetch(url);
+          console.log(res);
+          let result = await res.json();
+          result = result.rows[0].key["sss2Desc"];
+
+          console.log(result);
+          return result;
+        } catch (err) {
+          console.log(err);
+        }
+    
+      }
+      async function sss3Title() {
+        let url = "http://localhost/gp_90210000216/api/index.php";
+        try {
+          let res = await fetch(url);
+          console.log(res);
+          let result = await res.json();
+          result = result.rows[0].key["sss3Title"];
+
+          console.log(result);
+          return result;
+        } catch (err) {
+          console.log(err);
+        }
+    
+      }
+      async function sss3Desc() {
+        let url = "http://localhost/gp_90210000216/api/index.php";
+        try {
+          let res = await fetch(url);
+          console.log(res);
+          let result = await res.json();
+          result = result.rows[0].key["sss3Desc"];
+
+          console.log(result);
+          return result;
+        } catch (err) {
+          console.log(err);
+        }
+    
+      }
+      async function sss4Title() {
+        let url = "http://localhost/gp_90210000216/api/index.php";
+        try {
+          let res = await fetch(url);
+          console.log(res);
+          let result = await res.json();
+          result = result.rows[0].key["sss4Title"];
+
+          console.log(result);
+          return result;
+        } catch (err) {
+          console.log(err);
+        }
+    
+      }
+      async function sss4Desc() {
+        let url = "http://localhost/gp_90210000216/api/index.php";
+        try {
+          let res = await fetch(url);
+          console.log(res);
+          let result = await res.json();
+          result = result.rows[0].key["sss4Desc"];
+
+          console.log(result);
+          return result;
+        } catch (err) {
+          console.log(err);
+        }
+    
+      }
+
+      async function ogrenciler() {
+        let url = "http://localhost/gp_90210000216/api/index.php";
+        try {
+          let res = await fetch(url);
+          console.log(res);
+          let result = await res.json();
+          result = result.rows[0].key["ogrenciler"];
+
+          console.log(result);
+          return result;
+        } catch (err) {
+          console.log(err);
+        }
+    
+      }
+      async function topluluklar() {
+        let url = "http://localhost/gp_90210000216/api/index.php";
+        try {
+          let res = await fetch(url);
+          console.log(res);
+          let result = await res.json();
+          result = result.rows[0].key["topluluklar"];
+
+          console.log(result);
+          return result;
+        } catch (err) {
+          console.log(err);
+        }
+    
+      }
+
+   
+
+
+      
+      //---------------------------------------------
+      Alpine.store("veriler", {
+        init() {
+          console.log(Alpine.store("globalvar").text);
+        },
+          fiyat1Text:fiyat1,
+          fiyat2Text:fiyat2,
+          referans1Text:referans1,
+          referans2Text:referans2,
+          referans3Text:referans3,
+          referans4Text:referans4,
+          referans5Text:referans5,
+          sss1TitleText:sss1Title,
+          sss2TitleText:sss2Title,
+          sss3TitleText:sss3Title,
+          sss4TitleText:sss4Title,
+          sss1DescText:sss1Desc,
+          sss2DescText:sss2Desc,
+          sss3DescText:sss3Desc,
+          sss4DescText:sss4Desc,
+          ogrencilerText:ogrenciler,
+          topluluklarText:topluluklar
+        });
+      });
+</script>
