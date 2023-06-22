@@ -1,4 +1,4 @@
+# Students and Clubs
 
-
-# Özellikler
-- Tüm sayfalarda en az bir adet veri github üzerinde bulunan bir json'dan geliyor.
+# Features
+- At least one data on all pages comes from a json on github.
